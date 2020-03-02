@@ -1,0 +1,262 @@
+body {
+
+margin: 0;
+border: 0;
+}
+
+.banner{
+    width: 100%;
+    height: 60vh;
+    /*background: url(Maricel.Dragan.jpg);*/
+   background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(146,96,203,1) 62%, rgba(0,212,255,1) 100%);
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+     
+}
+
+.banner h1{
+    color: white;
+    justify-content: center;
+    font-size:2.5em;
+    position:absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Kaushan Script';
+}
+
+
+
+.header {
+    
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    padding: 0 auto;
+    transition:.5s;
+    object-fit: scale-down;
+    
+}
+
+
+.header a {
+ 
+    text-decoration: none;
+    color: black;
+    font-family: 'Slabo 13px', serif;
+    display: block;
+    padding: 8px;
+    padding-left: 15px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    object-fit: fill;
+    
+}
+
+
+.header a:hover {
+    
+    color: darkblue;
+}
+
+
+.emoji {
+    width:35px;
+    height: 35px;
+}
+
+
+
+p {
+    
+   font-family: 'Roboto', sans-serif;
+    text-indent: 1.5em;
+    padding: 5px 10px;
+    font-size: 1.8rem; 
+    display: inline-block;
+   }
+
+#bio {
+   
+    height: auto;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    text-align: left;
+    
+}
+
+
+.content {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    background-color: beige;
+    object-fit: fill;
+   
+    }
+
+
+.pic{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+img {
+    
+    height: 50%;
+    width: 50%;
+    border-radius: 10px;
+}
+
+#work{
+    
+    padding: 5px 125px;
+}
+
+.container {
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+    justify-content: center;
+    padding: 50px;
+    object-fit: cover;
+}
+
+
+.container img{
+    
+    height: 150px;
+    width: 200px;
+    border: 2px solid rgb(232, 223, 197);
+    background-color: gainsboro;
+}
+
+.container img:hover{
+    opacity:0.4;
+}
+
+
+
+.contact {
+    
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto;
+    background-color: #7474b6;
+    justify-content: space-around;
+}
+
+
+.info{
+   padding: 2px 5px;
+    align-content: start;
+    
+}
+
+
+.info h4{
+    padding-top: 5px;
+    justify-content: left;
+    font-family:  'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.links{
+     padding: 20px 25px;
+     align-self: end;
+}
+
+
+
+.links a{
+    
+     padding: 10px;
+     display: block;
+     text-decoration: none;
+     font-family:  'Roboto', sans-serif;
+     font-size: 1rem;
+     align-content: right;
+     color: black;
+     font-weight: bold;
+    
+}
+
+
+.footer {
+    
+    border-top: 1px solid white;
+    border-top-width: 50%;
+    justify-content: center;
+    background-color: #7474b6;
+    text-align: center;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  color: blue;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    
+    body {
+        
+     width: 100%;
+        
+    }  
+    
+    .banner  h1 {
+        
+        width: 100%;
+        justify-content: center;
+        object-fit: fill;
+        text-align: center;
+        padding: 10px;
+    }
+   
+    .banner {
+        background-position: cover;
+    }
+    
+    .content {
+        display: block;
+        width: 100%;
+    }
+    
+    .pic {
+        display: none;
+    }
+    .container {
+           grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    } 
+    
+    .contact {
+           grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+           box-sizing: border-box;
+           
+    } 
+    
+    .links {
+        float: left;
+    }
+}
+
+
+
+
