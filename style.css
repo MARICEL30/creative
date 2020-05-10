@@ -262,8 +262,14 @@ img {
     } 
     
     .links {
-        float: left;
+         margin-right: 150px;
     }
+    
+    .info {
+        
+        padding-left: 40px;
+    } 
+    
 }
 
 
