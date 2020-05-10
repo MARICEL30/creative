@@ -35,7 +35,7 @@ border: 0;
     width: 100%;
     position: fixed;
     background-color: white;
-    padding: 0 auto;
+    padding: 23px;
     transition:.5s;
     object-fit: scale-down;
     
@@ -52,7 +52,7 @@ border: 0;
     font-family: 'Slabo 13px', serif;
     display: block;
     padding: 10px;
-    padding-left: 15px;
+    padding-left: 20px;
     text-transform: uppercase;
     display: inline-block;
     font-family: 'Roboto', sans-serif;
