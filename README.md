@@ -1,1 +1,1 @@
-Personal portfolio website, made with HTML and CSS.
+Personal portfolio website, made with HTML, CSS and Javascript.
