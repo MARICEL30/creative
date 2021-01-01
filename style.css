@@ -299,6 +299,7 @@ hr{
     
    filter: contrast(180%);
    transform: scale(1.1);
+   filter: drop-shadow(10px 15px 20px #fc466b);
 }
 
 
